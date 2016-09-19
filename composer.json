@@ -1,0 +1,21 @@
+{
+    "name": "checkerplate-software/laravel-mutex",
+    "description": "A mutex locker for Laravel.",
+    "keywords": [
+        "checkerplate-software",
+        "cpsoft",
+        "mutex",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CheckerplateSoftware\\LaravelMutex\\": "src/"
+        }
+    }
+}
